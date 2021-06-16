@@ -57,6 +57,7 @@ function orderController() {
                             });
                         })
                     } else {
+                        delete req.session.cart;
                         return res.json({
                             message: 'Order has been Placed'
                         });
