@@ -11,7 +11,7 @@ export function placeOrder(formObject) {
         }).show();
         setTimeout(() => {
             window.location.href = '/customer/orders';
-        }, 1000);
+        }, 500);
     }).catch((err) => {
         new Noty({
             type: 'success',

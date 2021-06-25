@@ -279,38 +279,38 @@
 body {
   font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
-  color: #232323;
+  color: #1d3557;
 }
 
 nav li:last-child a {
-  background: #FE5F1E;
+  background: #e63946;
 }
 nav li:last-child a:hover {
-  background: #b23301;
+  background: #e56b6f;
 }
 
 nav li a {
   transition: all 0.3s ease-in-out;
 }
 nav li a:hover {
-  color: #FE5F1E;
+  color: #e63946;
 }
 
 section.hero {
-  background: #F8F8F8;
+  background: #f1faee;
 }
 
 .size {
-  background: #F8F8F8;
+  background: #f1faee;
 }
 
 .add-to-cart {
-  border: 2px solid #FE5F1E;
-  color: #FE5F1E;
+  border: 2px solid #e63946;
+  color: #e63946;
   transition: all 0.3s ease-in-out;
 }
 .add-to-cart:hover {
-  background: #FE5F1E;
+  background: #e63946;
   border-color: #fff;
   color: #fff;
 }
@@ -318,30 +318,93 @@ section.hero {
   outline: none;
 }
 
+.menuback {
+  background: #EFF8FF;
+}
+
+.navbar {
+  background: #ffffff;
+}
+
+.pizzaname {
+  font-family: "Kaushan Script", cursive;
+}
+
 .btn-primary {
-  background: #FE5F1E;
+  background: #e63946;
   transition: all 0.3s ease-in-out;
 }
 .btn-primary:hover {
-  background: #b23301;
+  background: #e56b6f;
 }
 
 section.cart {
-  background: #F8F8F8;
+  background: #f1faee;
 }
 section.cart .amount {
-  color: #FE5F1E;
+  color: #e63946;
 }
 
+.typewriter h1 {
+  color: #0C005A;
+  font-family: monospace;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: 0.09em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em;
+  /* Adjust as needed */
+  -webkit-animation: typing 2.5s steps(30, end), blink-caret 0.5s step-end infinite;
+          animation: typing 2.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+/* The typing effect */
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+/* The typewriter cursor effect */
+@-webkit-keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
 section.login {
-  background: #F8F8F8;
+  background: #f1faee;
   min-height: calc(100vh - 86px);
 }
 section.login a {
-  color: #FE5F1E;
+  color: #e63946;
 }
 section.login a:hover {
-  color: #b23301;
+  color: #e56b6f;
 }
 
 .noty_theme__mint {
@@ -350,11 +413,11 @@ section.login a:hover {
 }
 
 a.link {
-  color: #FE5F1E;
+  color: #e63946;
 }
 
 section.status {
-  background: #F8F8F8;
+  background: #f1faee;
   min-height: calc(100vh - 86px);
 }
 
@@ -376,12 +439,12 @@ section.status {
   position: absolute;
   left: -10px;
   top: 50%;
-  background: #232323;
+  background: #1d3557;
   width: 10px;
   height: 10px;
   border-radius: 50%;
   transform: translateY(-50%);
-  box-shadow: 0 0 1px 10px #F8F8F8;
+  box-shadow: 0 0 1px 10px #f1faee;
 }
 
 .status-box ul li span:before {
@@ -426,32 +489,32 @@ section.status {
   left: -6px;
   width: 2px;
   height: 100%;
-  background: #232323;
+  background: #1d3557;
   margin-top: 10px;
 }
 
 .status-box ul li:nth-child(5) span:after {
-  box-shadow: 0 20px 1px 20px #F8F8F8;
+  box-shadow: 0 20px 1px 20px #f1faee;
 }
 
 .status-box ul li.step-completed:before {
-  background: #ccc;
+  background: #457b9d;
 }
 
 .status-box ul li.step-completed span:after {
-  background: #ccc;
+  background: #457b9d;
 }
 
 .status-box ul li.step-completed span {
-  color: #ccc;
+  color: #457b9d;
 }
 
 .status-box ul li.current span {
-  color: #FE5F1E;
+  color: #e63946;
 }
 
 .status-box ul li.current span:after {
-  background: #FE5F1E;
+  background: #e63946;
 }
 
 .status-box ul li small {
